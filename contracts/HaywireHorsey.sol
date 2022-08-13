@@ -33,7 +33,7 @@ contract HaywireHorseyNFT is Ownable, ERC721, ERC721URIStorage, PaymentSplitter 
     uint256 public constant MAX_TOKENS = 777;
     uint256 public publicMintMaxLimit = 50;
     uint256 public whitelistMintMaxLimit = 50;
-    uint256 public tokenPrice = 0.06 ether;
+    uint256 public tokenPrice = 0.01 ether;
     uint256 public whitelistTokenPrice = 0.00 ether;
     uint256 public maxWhitelistPassMints = 777;
     uint256 public buyBonusMultiplier = 1;
